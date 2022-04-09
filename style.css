@@ -320,7 +320,7 @@ body {
 }
 
 #banner button:hover {
-    background: #088178
+    background: #088178;
     color: #fff;
 }
 
@@ -467,7 +467,7 @@ body {
 
 #newsletter .form a {
     text-decoration: none;
-    color:#cdd4f8
+    color:#cdd4f8;
 
 }
 
