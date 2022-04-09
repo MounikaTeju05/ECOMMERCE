@@ -284,6 +284,11 @@ body {
     right: 10px;
     position: absolute;
 }
+#product1 .pro .cart:hover{
+    background-color: #088178;
+    color:#000;
+    border:1px solid black;
+}
 
 #banner {
     display: flex;
@@ -315,7 +320,7 @@ body {
 }
 
 #banner button:hover {
-    background: #088178;
+    background: #088178
     color: #fff;
 }
 
@@ -570,16 +575,73 @@ footer .logo{
 }
 
 /* Product page */
-#prodetails .single-pro-image {
-    width:25%;
-    margin-right: 50px;
+
+#prodetails {
+    display:flex;
+    margin-top: 25px;
 }
 
-.small-img-group {
-    display: flex;
-    
+#prodetails .single-pro-image {
+    width:60vh;
+    margin-top: 2px;
+}
+
+.small-img-group{
+    display:flex;
     justify-content: space-between;
 }
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width:50%;
+    padding-top: 30px; 
+    padding-left: 100px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+    
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+    padding: 20px 0 5px 0;
+}
+
+#prodetails .single-pro-details select {
+    display:block;
+    padding: 5px 10px;
+    margin-bottom : 10px;
+}
+
+#prodetails .single-pro-details .details li {
+    text-decoration:none;
+    margin:10px; 
+    line-height: 25px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 45px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20x;
+    margin-right: 5px;
+}
+#prodetails .single-pro-details button{
+    background: #088178;
+    color:#fff;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+
+
+
 
 
 
