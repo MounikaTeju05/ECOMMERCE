@@ -569,6 +569,19 @@ footer .logo{
     font-weight: 600;
 }
 
+/* Product page */
+#prodetails .single-pro-image {
+    width:25%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
 
 /* Blog page */ 
 
