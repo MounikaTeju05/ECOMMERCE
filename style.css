@@ -540,7 +540,7 @@ footer .logo{
 
 /* Shop page */
 #page-header {
-    background-image: url("imgs/shop11.webp");
+    background-image: url("imgs/shop1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -619,7 +619,7 @@ footer .logo{
 
 #prodetails .single-pro-details .details li {
     text-decoration:none;
-    margin:10px; 
+    margin:2px; 
     line-height: 25px;
 }
 
